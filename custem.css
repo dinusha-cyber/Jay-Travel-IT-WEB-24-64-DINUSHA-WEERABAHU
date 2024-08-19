@@ -1,0 +1,66 @@
+.box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 3px #e4e3e3;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+h1 {
+    size: 300px;
+    color: rgb(255, 117, 4);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+#hero-topic{
+    font-size: 50px;
+    color: rgb(255, 117, 4);
+    padding-left: 50px;
+}
+.my-subtopic{
+   font-size: 25px;
+   color: rgb(85, 86, 87);
+}
+.no-underline {
+            text-decoration: none;
+        }
+.counter-section {
+    background: var(--bs-dark) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.counter-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+.counter {
+    flex: 1; 
+    margin: 10px; 
+}
+
+.counter p, .counter h2 {
+    margin: 0; 
+	color: #f5f2f1;
+}
+.counter .count-number {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem; 
+    color: #e66e39;
+}
+.counter .brand-name {
+    font-size: 1.5rem; 
+    font-weight: normal; 
+	  color: #e66e39;
+}
+.counter h2 {
+    font-size: 3rem; 
+    font-weight: bold; /
+}
